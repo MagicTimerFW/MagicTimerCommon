@@ -2,7 +2,7 @@
 
 import Foundation
 
-extension TimeInterval {
+public extension TimeInterval {
     /// Cast TimeInterval to Int.
     func convertToInteger() -> Int {
         return Int(self)

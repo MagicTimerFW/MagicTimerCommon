@@ -1,7 +1,7 @@
 
 import Foundation
 
-extension Int {
+public extension Int {
     /// Cast Int to TimeInterval
     func convertToTimeInterval() -> TimeInterval {
         return TimeInterval(self)
@@ -10,10 +10,10 @@ extension Int {
     func convertToString() -> String {
         return String(self)
     }
-  
+    
 }
 
-extension Double {
+public extension Double {
     /// Check the number is positive(bigger than zero)
     var isPositive: Bool {
         get {
@@ -22,7 +22,6 @@ extension Double {
     }
     /// Cast Double to TimeInterval
     func convertToTimeInterval() -> TimeInterval {
-        
         return TimeInterval(self)
     }
 }
